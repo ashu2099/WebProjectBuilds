@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Compatibility Tool For:Destiny</title>
+</head>
+<body>
+
+<style>
+   body{
+      background:url(OPGm.jpg);
+      background-size:cover;
+      background-repeat: no-repeat; 
+      background-attachment: fixed;
+   }
+
+   #fonts{
+      #fonts{lucida handwriting,showcard gothic,corbel,harrington,isisUPC,mv boli,niagra,segoe}
+   }
+
+   h2{
+      font:47px "showcard Gothic";
+      color:black;
+      font-variant:small-caps;
+      text-shadow:7px 7px 5px #595959;
+   }
+
+   p{
+      font:22px "segoe script";
+      color:black;
+      margin:5px 0px 0px 0px;
+      font-variant:small-caps;
+      font-weight:bold;
+      text-shadow:3px 5px 7px #101010;
+   }
+
+   h3{
+      font:30px "lucida handwriting";
+      font-variant:small-caps;
+      font-weight: bold;
+      margin: -30px 0px 0px 0px;
+      position: relative;
+   }
+
+
+   input,select{
+      background: black;
+      font-weight: bold;
+      width:200px;
+      font:15px "segoe script";
+      color:white;
+      margin:5px 0px 0px 0px;
+      font-variant:small-caps;
+      font-weight:bold;
+      position:fixed;
+      left:35%;
+   }
+
+   button{
+      background:grey;
+      margin-top:10px;
+      border:3px groove green;
+      height:45px;
+      width:250px;
+      font:25px "corbel";
+      color:#1a1a1a;
+      font-variant:small-caps;
+      font-weight:bold;
+      box-shadow:5px 5px 10px #101010;
+      position:relative;
+      left:12%;
+   }
+             button:hover{border: 7px groove greenyellow;background:#cccccc;}
+   #show{
+      font-size:30px;
+      float:left;
+      border:5px ridge green;
+      color:red;
+      wildth:200px;
+      background:#292929;
+   }
+</style>
+<br><br>
+
+
+<h2>Compatibility Tool For->Destiny</h2>
+<h3><center>Enter the specs of your computer</center></h3>
+
+<p id="gb">RAMS (in GB): <input id="numb"></p>
+<p id="osver">Version (for Windows): 
+<select>
+<option selected>Select...</option>
+<option value="Wind6">XP</option>
+<option value="Wind7">7</option>
+<option value="Wind8">8</option>
+<option value="Wind8.1">8.1</option>
+<option value="Wind10">10</option>
+</select>
+</p>
+
+<p id="bit">Bit Processor: <input id="pro"></p>
+<p id="intel">Intel processor version "i_" <input id="iprocessor"></p>
+<p id="gc">Graphic Memory (GPU Memory): <input id="memory">Gbs</p>
+<p id="hd">Hard Drive space: <input id="space"></p>
+<p id="sub"><button type="button" onclick="mySpecs()">Submit</button></p>
+<p id="show"></p>
+
+<script language="javascript">
+ function mySpecs()
+ {
+   var a,b,c,d,e,f;
+   c=document.getElementById("pro").value;
+   a=document.getElementById("numb").value;
+   d=document.getElementById("iprocessor").value;
+   e=document.getElementById("space").value;
+   f=document.getElementById("memory").value;
+    if (a<2 || c!=64 || d<3 || e<15 || f<2) 
+   {
+      b="You DON'T have the reqiured specs for the game to work on your computer";
+   }
+   else {
+      b="You  HAVE the reqiured specs for the game to work on your computer.";
+   }
+ document.getElementById("show").innerHTML=b;
+ }
+</script>
+
+
+</body>
+</html>

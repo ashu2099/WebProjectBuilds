@@ -1,0 +1,61 @@
+<html>
+<head>
+<title></title>
+</head>
+<body>
+
+<p>ASSASSINS CREED SYNDICATE:</p>
+<a href="https://youtu.be/dan5DcUrpYk"><li>LINK 1</li></a>
+<a href="https://youtu.be/-7tXWD6Rx_k"><li>LINK 2</li></a>
+<a href="https://youtu.be/FQ2Ie5DwTvY"><li>LINK 3</li></a>
+
+<p>BATMAN ARKHAM KNIGHT:</p>
+<a href="https://youtu.be/3sA7GIScldQ"><li>LINK 1</li></a>
+<a href="https://youtu.be/jOuxf_ALO5M"><li>LINK 2</li></a>
+<a href="https://youtu.be/xIXGZ366mUU"><li>LINK 3</li></a>
+
+<p>FAR CRY PRIMAL</p>
+<a href="https://youtu.be/yxPR0WbwIXw"><li>LINK 1</li></a>
+<a href="https://youtu.be/NqZQDGRKRUI"><li>LINK 2</li></a>
+<a href="https://youtu.be/uX85bx-7aHk"><li>LINK 3</li></a>
+
+<p>DESTINY</p>
+<a href="https://youtu.be/XKQfiwPzjmc"><li>LINK 1</li></a>
+<a href="https://youtu.be/og-PzoC83pY"><li>LINK 2</li></a>
+<a href="https://youtu.be/PX-Z3GuyKO4"><li>LINK 3</li></a>
+
+<p>FIFA 16</p>
+<a href="https://youtu.be/uQCjEoXx01Q"><li>LINK 1</li></a>
+<a href="https://youtu.be/ffnYhRydD6Y"><li>LINK 2</li></a>
+<a href="https://youtu.be/SdMLdyhYJv8"><li>LINK 3</li></a>
+
+<p>CALL OF DUTY BO3</p>
+<a href="https://youtu.be/prfwTXnGp-M"><li>LINK 1</li></a>
+<a href="https://youtu.be/lfGmKbZ32w4"><li>LINK 2</li></a>
+<a href="https://youtu.be/PX-Z3GuyKO4"><li>LINK 3</li></a>
+
+<p>FALLOUT 4</p>
+<a href="https://youtu.be/_wzv2FsUlHE"><li>LINK 1</li></a>
+<a href="https://youtu.be/zddY5eUvQDE"><li>LINK 2</li></a>
+<a href="https://youtu.be/CxE-oRj0JK0"><li>LINK 3</li></a>
+
+<p>QUANTUM BREAK</p>
+<a href="https://youtu.be/0woVFPe3C1k"><li>LINK 1</li></a>
+<a href="https://youtu.be/R6__gei33tw"><li>LINK 2</li></a>
+<a href="https://youtu.be/QThMmPDs4Xk"><li>LINK 3</li></a>
+
+<p>DBZ XENOVERSE</p>
+<a href="https://youtu.be/7CraGMfepD0"><li>LINK 1</li></a>
+<a href="https://youtu.be/nIzA967TFrY"><li>LINK 2</li></a>
+<a href="https://youtu.be/4TcZL0pin5g"><li>LINK 3</li></a>
+
+</body>
+</html>
+
+
+
+
+
+
+
+

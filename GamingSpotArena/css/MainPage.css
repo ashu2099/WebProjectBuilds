@@ -1,0 +1,106 @@
+@font-face {
+    font-family: Menu;
+    src: url(../Resources/menubutt.ttf);
+}
+
+
+body {
+               background-image: url("../Resources/wallz/OP.png");
+               background-repeat: no-repeat;
+               background-attachment: fixed;
+               background-size: cover;
+          }
+h1 {     font-size: 80px;  
+             font-weight: bold;
+             font-variant:small-caps;
+             text-align: center;
+             color: white;
+             text-shadow: 7px 7px 7px greenyellow;
+             font-family: "viner hand itc";
+     }
+
+#subt {
+    font: 50px "Freestyle Script";
+    font-variant:small-caps;
+    text-align: left;
+    color: lightgrey;
+    text-shadow: 7px 7px 7px white;
+    position:relative;
+    width:500px;
+    left:50%;
+    top:-80px;
+    }
+    
+td {
+                padding: 30px;
+     }
+                a {color: greenyellow;text-decoration:none;}
+                #drpdn a{cursor:crosshair;}
+div.img {
+    margin: 5px;
+    border: 5px;
+    width: 225px;
+    height:266px;
+    position: relative;
+}
+div.img:hover {
+    border: 5px groove green;
+}
+div.desc {
+    margin-top:-24px;
+    height:100px;
+    font-size: 20px;
+    font-variant: small-caps;
+    font-family:Verdana;
+    text-align: center;
+    text-shadow: 5px 5px 25px white,5px -4px 2px black;
+    padding:10px;
+    position: relative;
+
+}
+div.desc:link {text-decoration:none;}
+div.img:hover div.desc{background:#262626;}
+
+#mrib{
+    width:cover;
+    height:70px;
+    background:greenyellow;
+    box-shadow:0px 0px 10px white;
+    text-align: center;
+}
+
+#drpdn{
+    display:none;
+    color:blue;
+    background:white;
+    font:20px Verdana;
+    font-variant:small-caps;
+    text-align: left;
+    width:150%;
+    position: relative;
+    z-index:10;
+    margin-top: 15px;
+    }
+
+        #drpdn p:hover{background:#f2f2f2;border:3px ridge greenyellow;color:#1a1a1a;}
+        #drpdn p{margin:0px 0px 0px 0px;padding:10px 0px 10px 7px;
+            background:black;color:white;text-shadow: 2px -5px 10px white;}
+
+#mbtn{
+    font:35px Menu;
+    color:black;
+    width:20%;
+    height:100%;
+    font-variant:small-caps;
+    text-align:center;
+    padding-top: 15px;
+    margin:none;
+    float:left;
+    }
+       #mbtn:hover{background:#292929;margin:none;color:white;padding-top: 0px;}
+       #mbtn:visited{}
+       #mbtn:active{background:#292929;color:red;}
+       #mbtn:hover #drpdn{display:block;}
+
+
+       
