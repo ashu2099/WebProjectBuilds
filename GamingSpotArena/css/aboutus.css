@@ -83,23 +83,20 @@ a {color: greenyellow;text-decoration:none;}
 #fbbnr{
     width:250px;
 }
-        #fbbnr:hover{background:#3b5998;border:7px solid #3b5998;border-radius: 30px;}
-        #fbbnr a{display:none;}
-        #fbbnr:hover a{display:block;font:15px Verdana;font-weight:bold;}
+        #fbbnr:hover {background:#3b5998;border:7px solid #3b5998;border-radius: 30px;}
+        #fbbnr a{display:block;font:15px Verdana;font-weight:bold;}
 
 #twbnr{
     width:250px;
 }
         #twbnr:hover{background:#00aced;border:7px solid #00aced;border-radius: 30px;}
-        #twbnr a{display:none;}
-        #twbnr:hover a{display:block;font:15px Verdana;font-weight:bold;}
+        #twbnr a{display:block;font:15px Verdana;font-weight:bold;}
 
 #gpbnr{
     width:250px;
 }
         #gpbnr:hover{background:#d84b37;border:7px solid #d84b39;border-radius: 30px;}
-        #gpbnr a{display:none;}
-        #gpbnr:hover a{display:block;font:15px Verdana;font-weight:bold;}
+        #gpbnr a{display:block;font:15px Verdana;font-weight:bold;}
 
 #abtus{
     font:90px "abth";
@@ -117,18 +114,21 @@ a {color: greenyellow;text-decoration:none;}
     font-weight:bold;
     font-variant: small-caps;
     color: white;
-    text-shadow:5px -4px 2px black,2px 2px 2px #990000,5px -3px 1px red,0px 0px 3px black;
     margin-top:50px;
 }
 
 #email{
     width:245px;
-    text-shadow:5px 5px 5px #990000;
     color:white;
-    font:20px verdana;
+    font:15px verdana;
     font-weight:bold;
     margin-top:-15px
 }
 
-
+#col {
+    margin-top:50px;
+    float:left;
+    width:33%;
+    background: rgba(0, 0, 0, 0.7);
+}
        
