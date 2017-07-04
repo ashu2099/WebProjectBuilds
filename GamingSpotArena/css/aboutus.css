@@ -1,11 +1,11 @@
 @font-face {
     font-family: Menu;
-    src: url(../resources/menubutt.ttf);
+    src: url(../Resources/menubutt.ttf);
 }
 
 @font-face{
     font-family: abth;
-    src:url(../resources/abthd.ttf);
+    src:url(../Resources/abthd.ttf);
 }
 
 
