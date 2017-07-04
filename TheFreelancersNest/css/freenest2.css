@@ -1,0 +1,137 @@
+@import url('fonts.css');
+@media screen and (min-width: 768px){.main{height:100vh;}}
+@media screen and (max-width: 600px){.titlehead{font-size: 5vw;}}
+
+body {
+      position: relative; 
+  }
+.mynav {background:#db3434;font:20px raleway;font-weight:500;box-shadow: 0px 5px 10px;}
+.navmen li a {color:#ffffff !important;height:50px;padding-top:15px !important;}
+.navmen li a:hover{color: #666666 !important;}
+.mynav li:hover {background-color: #e6e6e6;}
+@media (max-width:790px) and (min-width:768px) {#lgrgbtn{font-size:15px;}}
+
+.imgcnt {padding:0px;margin-top:-25%;}
+.imgcnt>img {display:block;margin:auto;max-width:25%;}
+.imgcnt>h1 {display:block; color:white;}
+
+.titlehead{font-family: 'times new roman';text-align:center;font-variant:small-caps;margin-top:0px;}
+
+.homediv {background-image:url('../resources/carimgs/1.png');background-size:cover;background-attachment:fixed;
+            color:white;box-shadow: 0px -5px 15px black, 0px 5px 15px black;z-index:13;}
+.homediv>h2 {font:40px "Josefin Sans"; font-weight:600;}
+.homediv>div>img{display:block;margin:auto;}
+.homediv>div>p{font-family:'quicksand'; font-weight:500;}
+
+.forf {background-image:url('../resources/carimgs/2.png');background-size:cover;background-attachment:fixed;
+            color:white;box-shadow: 0px 5px 15px black;z-index:12;}
+.forf>h2 {font:40px "Josefin Sans"; font-weight:600;}
+.forf>div>img{display:block;margin:auto;}
+.forf>div>p{font-family:'quicksand'; font-weight:500;}
+
+.forcomp {background-image:url('../resources/carimgs/3.png');background-size:cover;background-attachment:fixed;
+            color:white;box-shadow: 0px 5px 15px black;z-index:11;}
+.forcomp>h2 {font:40px "Josefin Sans"; font-weight:600;}
+.forcomp>div>img{display:block;margin:auto;}
+.forcomp>div>p{font-family:'quicksand'; font-weight:500;}
+
+.about {background-image:url('../resources/carimgs/4.png');background-size:cover;background-attachment:fixed;
+            color:white;box-shadow: 0px 5px 15px black;z-index:10;}
+.about>h2 {font:40px "Josefin Sans"; font-weight:600;}
+.about>div>img{display:block;margin:auto;}
+.about>div>p{font-family:'quicksand'; font-weight:500;}
+@media (min-width:768px){.homediv>div>p,.forf>div>p,.forcomp>div>p,.about>div>p{font-size:15px;}}
+@media screen and (min-width: 1600px){.main>h2{font-size:75px;}.homediv>div>p,.forf>div>p,.forcomp>div>p,.about>div>p{font-size:25px;}}
+
+.navbar-default .navbar-nav > .active > a {color:black !important;}
+.navbar-header>button:hover,button:focus{color:#000000 !important; text-decoration: none;}
+
+.abtlst>p {font:16px 'quicksand'; font-weight:500;margin:-2px;text-align:center;}
+.abtlst {margin-top:-20px;margin-bottom:20px;psadding:0px;}
+.abtlst>h2 {text-align:center;font:18px 'quicksand';font-weight:500;border-bottom:1px solid #cb5858;}
+#email {font-size:11px;margin:5px 0px;}
+@media (min-width:1600px){.abtlst>p,#email{font-size:25px;}}
+
+.socimg{width:25px;margin:5px 2px;}
+.carousel .savelogo {min-width:100%;}
+.iframe{width:100%;height:250px;border:2px solid #cb5858;padding:10px; margin-top:30px;}
+
+.vidhd{text-align:center;text-decoration:underline;text-decoration-color:#602e2e;font:20px quicksand; }
+video{display:block;width:50%;margin:auto;} @media(max-width:768px){video{width:100%}}
+
+.errmsg{margin:3px 0px;font:12px raleway;font-weight:600;color:red;}
+
+/*loginModalCss*/
+.nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.nav > li {
+  position: relative;
+  display: block;
+}
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #ffe5e5;
+}
+.nav > li.disabled > a {
+  color: #777;
+}
+.nav > li.disabled > a:hover,
+.nav > li.disabled > a:focus {
+  color: #777;
+  text-decoration: none;
+  cursor: not-allowed;
+  background-color: transparent;
+}
+.nav > li > a > img {
+  max-width: none;
+}
+.nav-tabs {
+  border-bottom: 2px solid #d3a9a9;
+}
+.nav-tabs > li {
+  float: left;
+  margin-bottom: -3px;width:50%;padding:0px 15px;
+}
+.nav-tabs > li > a {
+  margin-right: 0px;color:black;
+  background-color:none;
+  line-height: 1.42857143;
+  border: none;
+  border-radius: 0px 0px 0 0;
+  text-align:center;
+}
+.nav-tabs > li > a:hover {
+  border-color: #eee #eee #ddd;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #555;
+  cursor: default;
+  background-color: none;
+  border: none;
+  border-bottom-color: none;
+}
+.nav-tabs > li.active > a {border-bottom:5px solid #db3434 !important;margin-right:0px;color:#cb5858!important;}
+.cr{border:1px solid #db3434;font-family:raleway;font-weight:600; background-color:white;display:block;margin:auto;margin-bottom:50px;}
+.tab-content {padding:15px 15px;}
+.btn{display:block;width:50%;margin:auto !important;height:50px;background-color:#ffe5e5;font-weight:600;}
+.btn:hover{background-color:#db3434;color:white;}
+.form-control:focus {border-color: #cb5858;box-shadow:0px 0px 5px #cb5858;}
+
+.close{font-size:50px;cursor:pointer;}
+.lmsocimg{display:block; margin:auto;max-width:75px;}
+.lmsocimgtag{text-align:center;margin:5px 0px;}
+.socdiv{margin:15px 0px;}
+.socdiv:hover{color:#cb5858;}
+
+/*loginModalCssnds*/

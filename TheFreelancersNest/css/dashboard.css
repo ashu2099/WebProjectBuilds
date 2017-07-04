@@ -1,0 +1,35 @@
+
+@import url('fonts.css');
+
+body{background:#ead5d5;}
+.navbarsdpane{background-color:#db3434;padding:0px;position:fixed;height:100vh;overflow-y:scroll;overflow-x:hidden;}
+.navbarsdpane>div>p>img {display:block;margin:auto;}
+.navbarsdpane::-webkit-scrollbar{display:none;}
+
+.mnlst{font-size:16px;border-width:1px 10px 0px 10px;border-style:solid;border-color:#00001a transparent;
+	   height:50px;padding-top:15%;padding-bottom:25%;margin:0px;}
+li:hover{background-color:#bb0000;border-left:5px solid #ead5d5;}
+
+li.active{background-color:#660000;border-left:5px solid #ead5d5;} @media (max-width:600px){.mnlst{font-size:2.0vw;}}
+ul{margin:0px;padding:0px;list-style-type: none;}
+
+.sdhdr{background-color:#ffffff;box-shadow:3px 3px 10px black;padding:20px 0px;margin:10px 0px 10px 5%;}
+.sdhdr>img{;display:block;margin:auto;padding:0px;}
+.sdhdr>h1{font-family:raleway;font-weight:400;text-align:center;margin:0px;} 
+     @media(max-width:600px){.sdhdr>h1{font-size:5vw;}}
+     @media(min-width:390px){.sdhdr>h1{margin-top:3%;}}
+
+
+.filler{background-color:#660000;color:white;}
+.fillbox{border:3px solid white;margin:10px 0px;padding:0px 5px 5px 5px;}
+
+.cog{z-index:1000;font-size:25px;border:3px solid black;border-radius:20%;
+	 color:black;position:fixed;right:10px;top:10px;background-color:#ffffff;}
+     @media(max-width:500px){.cog{font-size:15px;}}
+.cog:hover{background-color:#dddddd;cursor:pointer;}
+.wii{margin-left:-350%;} @media(max-width:500px){.wii{margin-left:-500%;}}
+
+.hd2{font-family:raleway;}
+     @media(max-width:600px){.hd2{font-size:12px;}}
+
+.btn {display:block;white-space: normal;}
