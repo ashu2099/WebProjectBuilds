@@ -37,7 +37,7 @@ weatherApp.controller('forecastController',['$scope','$location','cityService','
 	function($scope,$location,cityService,$timeout,$resource){
 
 $scope.city=cityService.city;
-$scope.weatherAPI = $resource("http://api.openweathermap.org/data/2.5/forecast?units=metric&APPID=dae938e1cb78acf62cecd5dbebc70704", { callback: "JSON_CALLBACK" }, { get: { method: "JSONP" }});
+$scope.weatherAPI = $resource("https://api.openweathermap.org/data/2.5/forecast?units=metric&APPID=dae938e1cb78acf62cecd5dbebc70704", { callback: "JSON_CALLBACK" }, { get: { method: "JSONP" }});
 
 $scope.weatherResult = $scope.weatherAPI.get({q:$scope.city});
 
