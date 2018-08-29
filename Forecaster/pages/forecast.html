@@ -1,0 +1,18 @@
+<div style="padding:0px;" ng-show="weatherResult.$resolved && weatherResult.cod != null">
+
+	<h1 class="head1">The Weather Forecast for <span class="cc">{{ city }}</span>, {{weatherResult.city.country}} is as Follows:</h1>
+<div class="resultblock col-xs-12 col-sm-6 col-md-3" ng-repeat="x in weatherResult.list" ng-if="$index % 8 === 0">
+	<div class="innerdiv">
+	<h2>{{convertToDate(x.dt) | date:"d MMM yyyy"}}</h2>
+	<p class="info">Temperature:</p> <p class="info">{{x.main.temp}} &#176;C</p>
+	<p class="info">Min Temperature:</p> <p class="info">{{x.main.temp_min}} &#176;C</p>
+	<p class="info">Max Temperature:</p> <p class="info">{{x.main.temp_max}} &#176;C</p>
+	<p class="info">Weather : </p> <p class="info cc">{{x.weather[0].description}}</p>
+</div>
+</div>
+
+</div>
+
+<div ng-show="weatherResult.$resolved && weatherResult.cod == null">
+	<h1 class="head1">That City Dosen't Exist, Dude.</h1>
+</div>

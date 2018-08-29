@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:900|Montserrat');
+
+body{background-color: #54b24a; color:white;font-family:Montserrat;}
+.conta{padding:0px 20px;}
+
+/*/NAVBAR-CSS*/
+.navbar{background-color: white;border-radius: 0px;}
+.navbar-default, .navbar{border:0px;}
+.navbar-brand, .navbar-brand:hover{background-color: #3a7a33 !important;color:white !important;}
+.navbar-nav>li>a:hover {background-color: #b6ffaf !important;}
+
+@media screen and (max-width:768px) {
+	.navbar-brand{display:block;margin:auto;float:none;} 
+	.navbar-brand, .navbar-right>li>a{text-align:center !important;
+		}}
+/*/HOME CSS*/
+.head1{font-family:Lato;font-weight: 900;text-align: center;}
+.head4{font-family:Montserrat;text-align: center;}
+.form-control {padding:15px; border-radius: 0px;background-color: inherit;color:white; border:3px solid white;}
+.form-control::placeholder{color:#c1c1c1;}
+
+.butn{border:none;padding:10px;color:black;background-color:white;display:block;margin:auto;}
+.butn:hover{background-color: #b6ffaf;}
+
+/*/FORECAST CSS*/
+
+.cc{text-transform: capitalize;}
+.resultblock {text-align:center;margin:10px 0px;}
+.innerdiv{border:1px solid white;padding:15px;}
