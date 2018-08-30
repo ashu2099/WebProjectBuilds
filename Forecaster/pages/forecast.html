@@ -13,6 +13,11 @@
 
 </div>
 
+<div ng-show="!weatherResult.$resolved && weatherResult.cod == null">
+	<h1 class="head1">Wait, Dude.</h1>
+	<div clas="col-xs-12"><img class="img-responsive waiticon" src="waiticon.gif"></div>
+</div>
+
 <div ng-show="weatherResult.$resolved && weatherResult.cod == null">
 	<h1 class="head1">That City Dosen't Exist, Dude.</h1>
 </div>
