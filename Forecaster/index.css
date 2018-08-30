@@ -13,6 +13,7 @@ body{background-color: #54b24a; color:white;font-family:Montserrat;}
 	.navbar-brand{display:block;margin:auto;float:none;} 
 	.navbar-brand, .navbar-right>li>a{text-align:center !important;
 		}}
+
 /*/HOME CSS*/
 .head1{font-family:Lato;font-weight: 900;text-align: center;}
 .head4{font-family:Montserrat;text-align: center;}
@@ -21,6 +22,10 @@ body{background-color: #54b24a; color:white;font-family:Montserrat;}
 
 .butn{border:none;padding:10px;color:black;background-color:white;display:block;margin:auto;}
 .butn:hover{background-color: #b6ffaf;}
+.hfull{height:auto;}
+.conti{position:relative;}
+@media screen and (min-height:450px) and (min-width:450px) 
+{.conti{padding:none;top: 50%;transform: translate(0%, -50%);} .hfull{height:75vh;}}
 
 /*/FORECAST CSS*/
 
