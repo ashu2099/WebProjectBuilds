@@ -32,3 +32,4 @@ body{background-color: #54b24a; color:white;font-family:Montserrat;}
 .cc{text-transform: capitalize;}
 .resultblock {text-align:center;margin:10px 0px;}
 .innerdiv{border:1px solid white;padding:15px;}
+.waiticon{display:block;margin:auto;width:300px;}
