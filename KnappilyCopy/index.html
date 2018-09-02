@@ -1,0 +1,105 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html ng-app="myApp"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Knappilycopy</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+        <script src="//code.angularjs.org/1.3.0-rc.2/angular.min.js"></script>
+        <script src="//code.angularjs.org/1.3.0-rc.2/angular-route.min.js"></script>
+        <script src="//code.angularjs.org/1.3.0-rc.2/angular-resource.min.js"></script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
+        <script>
+        	function cgCl(inf,butinf){
+        			var el = document.getElementsByClassName("infodisyes");
+        			el[0].classList.remove("infodisyes");
+        			var elb = document.getElementsByClassName("activeb");
+        			elb[0].classList.remove("activeb");
+        			document.getElementById(inf).classList.add("infodisyes");
+        			document.getElementById(butinf).classList.add("activeb");
+
+        	}
+        	function cgClLArr(){
+        		var elid = document.getElementsByClassName('infodisyes')[0].id;
+        		var btid = document.getElementsByClassName('activeb')[0].id;
+				
+			if(elid!="what"){
+        		document.getElementsByClassName('infodisyes')[0].classList.remove("infodisyes");
+        		document.getElementsByClassName('activeb')[0].classList.remove("activeb");
+
+        		var ps = document.getElementById(elid).previousSibling;
+        		while(ps && ps.nodeType != 1) {ps = ps.previousSibling;}
+        		ps.classList.add("infodisyes");
+
+        		var bt = document.getElementById(btid).previousSibling;
+        		while(bt && bt.nodeType != 1) {bt = bt.previousSibling;}
+        		bt.classList.add("activeb");
+        	}
+        	}
+
+        	function cgClRArr(){
+        		var elid = document.getElementsByClassName('infodisyes')[0].id;
+        		var btid = document.getElementsByClassName('activeb')[0].id;
+				
+			if(elid!="ref"){
+        		document.getElementsByClassName('infodisyes')[0].classList.remove("infodisyes");
+        		document.getElementsByClassName('activeb')[0].classList.remove("activeb");
+
+        		var ps = document.getElementById(elid).nextSibling;
+        		while(ps && ps.nodeType != 1) {ps = ps.nextSibling;}
+        		ps.classList.add("infodisyes");
+
+        		var bt = document.getElementById(btid).nextSibling;
+        		while(bt && bt.nodeType != 1) {bt = bt.nextSibling;}
+        		bt.classList.add("activeb");
+        	}
+        	}
+        </script>
+
+
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="glyphicon glyphicon-hand-down"></span>
+          </button>
+          <a class="navbar-brand" href="#/">KnappilyCopy</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+<div class="nopad" ng-view>
+
+
+
+</div>
+    </body>
+</html>

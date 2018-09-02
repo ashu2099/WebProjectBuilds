@@ -1,0 +1,90 @@
+
+<div class="col-md-9">
+	<div class="restopdiv col-xs-12">
+
+	<h1 class="reshead">{{info.datahead.heading}}</h1>
+	<hr style="height:1px;border:none;color:#000;background-color:#333;">
+	<p class="date">31 Aug 2018</p>&nbsp;<p class="tag">Burning Issues</p>
+		<div class="buttdiv">
+		<button class="butt" style="background-color: #3b5998;">fb</button>
+		<button class="butt" style="background-color: #00aced;">tw</button>
+		<button class="butt" style="background-color: #dd4b39;">Gg</button>
+		<button class="butt" style="background-color: #007bb6;">Ln</button>
+		<button class="butt" style="background-color: green;">Wa</button>
+		</div>
+	<hr style="height:1px;border:none;color:#000;background-color:#333;">
+	<div class="col-xs-12 nopad">
+		<div class="halfimg col-xs-12 col-sm-4 col-md-4 nopad"><img class="img-responsive topcardimg" src="{{info.datahead.url}}"></div>
+    	<div class="halftext col-xs-12 col-sm-8 col-md-8">
+    		<h5 class="storycont2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h5>
+    	</div>
+	</div>
+
+	<div class="col-xs-12 linkbar">
+				<button onclick="cgClLArr();" class="linkbarbutt"><</button>
+				<button id="bt1" onclick="cgCl('what','bt1');" class="linkbarbutt activeb">What</button>
+				<button id="bt2" onclick="cgCl('why','bt2');" class="linkbarbutt">Why</button>
+				<button id="bt3" onclick="cgCl('when','bt3');" class="linkbarbutt">When</button>
+				<button id="bt4" onclick="cgCl('where','bt4');" class="linkbarbutt">Where</button>
+				<button id="bt5" onclick="cgCl('who','bt5');" class="linkbarbutt">Who</button>
+				<button id="bt6" onclick="cgCl('how','bt6');" class="linkbarbutt">How</button>
+				<button id="bt7" onclick="cgCl('ref','bt7');" class="linkbarbutt">References</button>
+				<button onclick="cgClRArr();" class="linkbarbutt">></button>
+	</div>
+
+	<div id="what" class="col-xs-12 buttinfo infodisyes">
+			<p><img align="right" width="350" class="img-responsive" src="{{info.datahead.url}}">
+			{{info.what.text}}</p>
+	</div>
+
+	<div id="why" class="col-xs-12 buttinfo infodisno">
+			<p><img align="right" width="350" class="img-responsive" src="{{info.datahead.url}}">
+			{{info.why.text}}</p>
+	</div>
+
+	<div id="when" class="col-xs-12 buttinfo infodisno">
+			<p><img align="right" width="350" class="img-responsive" src="{{info.datahead.url}}">
+			{{info.when.text}}</p>
+	</div>
+
+	<div id="where" class="col-xs-12 buttinfo infodisno">
+			<p><img align="right" width="350" class="img-responsive" src="{{info.datahead.url}}">
+			{{info.where.text}}</p>
+	</div>
+
+	<div id="who" class="col-xs-12 buttinfo infodisno">
+			<p><img align="right" width="350" class="img-responsive" src="{{info.datahead.url}}">
+			{{info.who.text}}</p>
+	</div>
+
+	<div id="how" class="col-xs-12 buttinfo infodisno">
+			<p><img align="right" width="350" class="img-responsive" src="{{info.datahead.url}}">
+			{{info.how.text}}</p>
+	</div>
+
+	<div id="ref" class="col-xs-12 buttinfo infodisno">
+			<p><img align="right" width="350" class="img-responsive" src="{{info.datahead.url}}">
+			{{info.refs.text}}</p>
+	</div>
+
+</div>
+</div>
+
+<div class="col-md-3">
+	<div class="sidediv restopdiv">
+	<a href="" onclick="cgCl('what','bt1');"><h4>What is the...</h3></a>
+	<hr style="height:1px;border:none;color:#000;background-color:#333;">
+	<a href="" onclick="cgCl('why','bt2');"><h4>When is the...</h3></a>
+	<hr style="height:1px;border:none;color:#000;background-color:#333;">
+	<a href="" onclick="cgCl('when','bt3');"><h4>Why is the...</h3></a>
+	<hr style="height:1px;border:none;color:#000;background-color:#333;">
+	<a href="" onclick="cgCl('where','bt4');"><h4>Where is the...</h3></a>
+	<hr style="height:1px;border:none;color:#000;background-color:#333;">
+	<a href="" onclick="cgCl('who','bt5');"><h4>Who is the...</h3></a>
+	<hr style="height:1px;border:none;color:#000;background-color:#333;">
+	<a href="" onclick="cgCl('how','bt6');"><h4>How is the...</h3></a>
+	<hr style="height:1px;border:none;color:#000;background-color:#333;">
+	</div>
+</div>
+
+
