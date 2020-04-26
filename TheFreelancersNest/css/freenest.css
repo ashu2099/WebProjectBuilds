@@ -10,7 +10,6 @@ body {
   position: relative;
   padding-top: 50px;
   background-color: #ead5d5;
-  overfdlow-x: hidden;
 }
 .mynav {
   background: #db3434;
@@ -30,9 +29,10 @@ body {
   background-color: #e6e6e6;
   transition: background-color 0.5s;
 }
-@media (max-width: 790px) and (min-width: 768px) {
+@media (max-width: 810px) and (min-width: 768px) {
   #lgrgbtn {
-    font-size: 15px;
+    font-size: 17px;
+    padding-left: 5px;
   }
 }
 
@@ -57,90 +57,51 @@ body {
   margin-top: 0px;
 }
 
+.main h2 {
+  font: 40px "Josefin Sans";
+  font-weight: 600;
+}
+.main img {
+  display: block;
+  margin: auto;
+}
+.main p {
+  font-family: "quicksand";
+  font-weight: 500;
+}
+
 .homediv {
   background: #db3434;
   color: white;
   box-shadow: 0px -5px 15px black;
-}
-.homediv > h2 {
-  font: 40px "Josefin Sans";
-  font-weight: 600;
-}
-.homediv > div > img {
-  display: block;
-  margin: auto;
-}
-.homediv > div > p {
-  font-family: "quicksand";
-  font-weight: 500;
 }
 
 .forf {
   background: #ead5d5;
   color: #602e2e;
 }
-.forf > h2 {
-  font: 40px "Josefin Sans";
-  font-weight: 600;
-}
-.forf > div > img {
-  display: block;
-  margin: auto;
-}
-.forf > div > p {
-  font-family: "quicksand";
-  font-weight: 500;
-}
 
 .forcomp {
   background: #db3434;
   color: white;
-}
-.forcomp > h2 {
-  font: 40px "Josefin Sans";
-  font-weight: 600;
-}
-.forcomp > div > img {
-  display: block;
-  margin: auto;
-}
-.forcomp > div > p {
-  font-family: "quicksand";
-  font-weight: 500;
 }
 
 .about {
   background: #ead5d5;
   color: #602e2e;
 }
-.about > h2 {
-  font: 40px "Josefin Sans";
-  font-weight: 600;
-}
-.about > div > img {
-  display: block;
-  margin: auto;
-}
-.about > div > p {
-  font-family: "quicksand";
-  font-weight: 500;
-}
+
 @media (min-width: 768px) {
-  .homediv > div > p,
-  .forf > div > p,
-  .forcomp > div > p,
-  .about > div > p {
+  .main p {
     font-size: 15px;
   }
 }
+
 @media screen and (min-width: 1600px) {
   .main > h2 {
     font-size: 75px;
   }
-  .homediv > div > p,
-  .forf > div > p,
-  .forcomp > div > p,
-  .about > div > p {
+  .main p {
     font-size: 25px;
   }
 }

@@ -20,8 +20,8 @@
     <script src="js/ait.js" type="text/javascript"></script>
     <!--collapseNavbarAfterLinkClick-->
     <script>
-      $(document).ready(function() {
-        $(".navbar-nav li a").click(function(event) {
+      $(document).ready(function () {
+        $(".navbar-nav li a").click(function (event) {
           $(".navbar-collapse").collapse("hide");
         });
       });
@@ -29,9 +29,9 @@
     <!--collapseNavbarAfterLinkClickEnds-->
     <!--Jquerysmoothscroll-->
     <script>
-      $(document).ready(function() {
+      $(document).ready(function () {
         // Add smooth scrolling to all links
-        $("a").on("click", function(event) {
+        $("a").on("click", function (event) {
           // Make sure this.hash has a value before overriding default behavior
           if (
             this.hash == "#home" ||
@@ -50,10 +50,10 @@
             // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
             $("html, body").animate(
               {
-                scrollTop: $(hash).offset().top - 50
+                scrollTop: $(hash).offset().top - 50,
               },
               850,
-              function() {
+              function () {
                 // Add hash (#) to URL when done scrolling (default click behavior)
                 //window.location.hash = hash;
               }
@@ -103,12 +103,12 @@
             class="navbar-toggle collapsed"
             data-toggle="collapse"
             data-target="#topFixedNavbar1"
-            style="color:white;"
+            style="color: white;"
           >
             <span class="glyphicon glyphicon-hand-down"></span>
           </button>
           <a href="#top"
-            ><img src="resources\logow.png" height="50 px" width="50 px"/></a
+            ><img src="resources\logow.png" height="50 px" width="50 px" /></a
           >&nbsp
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -138,286 +138,316 @@
       <!-- /.container-fluid -->
     </nav>
 
-    <!--caraouselStarts-->
-  
-    <div class="row">
-      <div id="top" class="col-xs-12">
-        <div
-          id="myCarousel"
-          class="carousel slide"
-          data-ride="carousel"
-          data-interval="2500"
-        >
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner" role="listbox">
-            <div class="item active">
-              <img
-                class="savelogo"
-                src="resources\carimgs\1.png"
-                alt="carousel fucked up"
-                height="400"
-              />
-            </div>
-
-            <div class="item">
-              <img
-                class="savelogo"
-                src="resources\carimgs\2.png"
-                alt="carousel fucked up"
-                height="400"
-              />
-            </div>
-
-            <div class="item">
-              <img
-                class="savelogo"
-                src="resources\carimgs\3.png"
-                alt="carousel fucked up"
-                height="400"
-              />
-            </div>
-
-            <div class="item">
-              <img
-                class="savelogo"
-                src="resources\carimgs\4.png"
-                alt="carousel fucked up"
-                height="400"
-              />
-            </div>
-            <div class="item">
-              <img
-                class="savelogo"
-                src="resources\carimgs\5.png"
-                alt="carousel fucked up"
-                height="400"
-              />
-            </div>
-          </div>
-
-          <!-- Left and right controls -->
-          <a
-            class="left carousel-control"
-            href="#myCarousel"
-            role="button"
-            data-slide="prev"
-          >
-            <span
-              class="glyphicon glyphicon-chevron-left"
-              aria-hidden="true"
-            ></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <!--logoPart-->
-          <div class="col-xs-push-2 col-xs-8 imgcnt">
-            <img
-              class=" img-responsive"
-              src="resources\logow2.png"
-              alt="Placeholder image"
-            />
-            <h1 class="titlehead">--The FreeLancers' Nest--</h1>
-          </div>
-          <!--logoPartEnds-->
-          <a
-            class="right carousel-control"
-            href="#myCarousel"
-            role="button"
-            data-slide="next"
-          >
-            <span
-              class="glyphicon glyphicon-chevron-right"
-              aria-hidden="true"
-            ></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <!--caraouselEnds-->
-    
     <div class="container-fluid">
-      <!--Home-->
+      <!--caraouselStarts-->
+
       <div class="row">
-        <div class="col-sm-12 homediv  main" id="home">
-          <h2>Hello</h2>
-          <div class="col-xs-push-2 col-xs-8 col-sm-3 col-sm-push-9">
-            <img class="img-responsive" src="resources\gcw.png" />
-          </div>
-          <div class="col-xs-12 col-sm-9 col-sm-pull-3">
-            <p>
-              Welcome to The Freelancer's Nest. The home of all the free birds
-              who like to have their own independent businesses and jobs. We
-              serve as a common platform for freelancers as well as individual
-              and multinational business organizations to find each other and
-              recruit workers or apply and bid for jobs. These jobs are based on
-              a one-time service or continuous support regarding a project and
-              building up a good clientele for future collaborations or
-              referrals. So if you're looking for good talent to cater to your
-              services or to find a job that suits your needs, you know you have
-              come to the right place.
-            </p>
+        <div id="top" class="col-xs-12" style="padding: 0px;">
+          <div
+            id="myCarousel"
+            class="carousel slide"
+            data-ride="carousel"
+            data-interval="2500"
+          >
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img
+                  class="savelogo"
+                  src="resources\carimgs\1.png"
+                  alt="carousel fucked up"
+                  height="400"
+                />
+              </div>
+
+              <div class="item">
+                <img
+                  class="savelogo"
+                  src="resources\carimgs\2.png"
+                  alt="carousel fucked up"
+                  height="400"
+                />
+              </div>
+
+              <div class="item">
+                <img
+                  class="savelogo"
+                  src="resources\carimgs\3.png"
+                  alt="carousel fucked up"
+                  height="400"
+                />
+              </div>
+
+              <div class="item">
+                <img
+                  class="savelogo"
+                  src="resources\carimgs\4.png"
+                  alt="carousel fucked up"
+                  height="400"
+                />
+              </div>
+
+              <div class="item">
+                <img
+                  class="savelogo"
+                  src="resources\carimgs\5.png"
+                  alt="carousel fucked up"
+                  height="400"
+                />
+              </div>
+            </div>
+            <!-- Wrapper Ends -->
+
+            <!-- Left and right controls -->
+            <a
+              class="left carousel-control"
+              href="#myCarousel"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="glyphicon glyphicon-chevron-left"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+
+            <!--logoPart-->
+            <div class="col-xs-push-2 col-xs-8 imgcnt">
+              <img
+                class="img-responsive"
+                src="resources\logow2.png"
+                alt="Placeholder image"
+              />
+
+              <h1 class="titlehead">--The FreeLancers' Nest--</h1>
+            </div>
+
+            <!--logoPartEnds-->
+            <a
+              class="right carousel-control"
+              href="#myCarousel"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="glyphicon glyphicon-chevron-right"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
         </div>
       </div>
-      <!--Homeneds-->
 
-      <!--forfree-->
+      <!--caraouselEnds-->
+
+      <div class="row">
+        <div class="col-sm-12 homediv main" id="home">
+          <div class="row">
+            <div class="col-xs-12">
+              <h2>Hello</h2>
+            </div>
+
+            <div class="col-xs-push-2 col-xs-8 col-sm-3 col-sm-push-9">
+              <img class="img-responsive" src="resources\gcw.png" />
+            </div>
+
+            <div class="col-xs-12 col-sm-9 col-sm-pull-3">
+              <p>
+                Welcome to The Freelancer's Nest. The home of all the free birds
+                who like to have their own independent businesses and jobs. We
+                serve as a common platform for freelancers as well as individual
+                and multinational business organizations to find each other and
+                recruit workers or apply and bid for jobs. These jobs are based
+                on a one-time service or continuous support regarding a project
+                and building up a good clientele for future collaborations or
+                referrals. So if you're looking for good talent to cater to your
+                services or to find a job that suits your needs, you know you
+                have come to the right place.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="row">
         <div class="col-sm-12 forf main" id="forFreeLancers">
-          <h2>For Freelancers</h2>
-          <div class="col-xs-push-2 col-xs-8 col-sm-3 col-sm-push-0">
-            <img class="img-responsive" src="resources\fpci.png" />
-          </div>
-          <div class="col-xs-12 col-sm-9">
-            <p>
-              A freelancer is a self-employed person. Freelancing is so
-              flexible, you can set your own hours, working full or part-time on
-              the projects of your choice. While clients can offer
-              specifications to the work, a freelancer works similar to an
-              independent contractor, in which he's free to control how the work
-              is completed. Freelancing allows you to set your own price for a
-              job. Many freelancers work for the same set of clients over a long
-              period of time. Others work with clients over shorter periods,
-              usually on specific projects.<br /><br />
-              Getting started as a freelancer is as easy. As soon as you
-              register, you can set up a profile,upload portfolios, find work,
-              and networking with your current sphere of influence to find your
-              first client. Here's steps to building a freelance career:<br />
-              <br /><span class="glyphicon glyphicon-expand">&nbsp;</span>Decide
-              what you'll offer. <br /><span class="glyphicon glyphicon-expand"
-                >&nbsp;</span
-              >Determine your target market. <br /><span
-                class="glyphicon glyphicon-expand"
-                >&nbsp;</span
-              >Create an online portfolio. <br /><span
-                class="glyphicon glyphicon-expand"
-                >&nbsp;</span
-              >Set your prices. <br /><span class="glyphicon glyphicon-expand"
-                >&nbsp;</span
-              >Start reaching out to find clients and incresing your experience
-              for further progress and referrals.
-            </p>
+          <div class="row">
+            <div class="col-xs-12">
+              <h2>For Freelancers</h2>
+            </div>
+
+            <div class="col-xs-push-2 col-xs-8 col-sm-3 col-sm-push-0">
+              <img class="img-responsive" src="resources\fpci.png" />
+            </div>
+
+            <div class="col-xs-12 col-sm-9">
+              <p>
+                A freelancer is a self-employed person. Freelancing is so
+                flexible, you can set your own hours, working full or part-time
+                on the projects of your choice. While clients can offer
+                specifications to the work, a freelancer works similar to an
+                independent contractor, in which he's free to control how the
+                work is completed. Freelancing allows you to set your own price
+                for a job. Many freelancers work for the same set of clients
+                over a long period of time. Others work with clients over
+                shorter periods, usually on specific projects.<br /><br />
+                Getting started as a freelancer is as easy. As soon as you
+                register, you can set up a profile,upload portfolios, find work,
+                and networking with your current sphere of influence to find
+                your first client. Here's steps to building a freelance
+                career:<br />
+                <br /><span class="glyphicon glyphicon-expand">&nbsp;</span
+                >Decide what you'll offer. <br /><span
+                  class="glyphicon glyphicon-expand"
+                  >&nbsp;</span
+                >Determine your target market. <br /><span
+                  class="glyphicon glyphicon-expand"
+                  >&nbsp;</span
+                >Create an online portfolio. <br /><span
+                  class="glyphicon glyphicon-expand"
+                  >&nbsp;</span
+                >Set your prices. <br /><span class="glyphicon glyphicon-expand"
+                  >&nbsp;</span
+                >Start reaching out to find clients and incresing your
+                experience for further progress and referrals.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-      <!--forfreeends-->
 
-      <!--Forcomp-->
       <div class="row">
         <div class="col-sm-12 forcomp main" id="forCompanies">
-          <h2>For Companies</h2>
-          <div class="col-xs-push-2 col-xs-8 col-sm-3 col-sm-push-9">
-            <img class="img-responsive" src="resources\compw.png" />
-          </div>
-          <div class="col-xs-12 col-sm-9 col-sm-pull-3">
-            <p>
-              The type of work freelancers do varies. Nearly every type of
-              service a business would need could be provided by a freelancer.
-              Marketing, Copywriting, Publicity, Writing, Technological Support,
-              Web programming, Web design, Mobile App development, Software
-              development, Creative works such as Graphic design, Photography,
-              Financial services such as bookkeeping and Accounting, and much
-              more. <br /><br />Finding and recruiting freelancers for different
-              types of jobs is also very convenient. Companies can register and
-              login with their own accounts and start posting jobs, and get bids
-              and invoices for jobs right away. In a nutshell, the process can
-              be understood as follows:<br />
-              <br /><span class="glyphicon glyphicon-expand">&nbsp;</span>Post a
-              job Explainging your requirements and set up an initial bid.
-              <br /><span class="glyphicon glyphicon-expand">&nbsp;</span>Get
-              applications regarding your job by various freelancers with
-              different bids and experience. <br /><span
-                class="glyphicon glyphicon-expand"
-                >&nbsp;</span
-              >Shortlist freelancers and get in contact with them. <br /><span
-                class="glyphicon glyphicon-expand"
-                >&nbsp;</span
-              >Discuss constraints and deadlines for the job. <br /><span
-                class="glyphicon glyphicon-expand"
-                >&nbsp;</span
-              >Get the work completed and provide feedback.
-            </p>
+          <div class="row">
+            <div class="col-xs-12">
+              <h2>For Companies</h2>
+            </div>
+
+            <div class="col-xs-push-2 col-xs-8 col-sm-3 col-sm-push-9">
+              <img class="img-responsive" src="resources\compw.png" />
+            </div>
+
+            <div class="col-xs-12 col-sm-9 col-sm-pull-3">
+              <p>
+                The type of work freelancers do varies. Nearly every type of
+                service a business would need could be provided by a freelancer.
+                Marketing, Copywriting, Publicity, Writing, Technological
+                Support, Web programming, Web design, Mobile App development,
+                Software development, Creative works such as Graphic design,
+                Photography, Financial services such as bookkeeping and
+                Accounting, and much more. <br /><br />Finding and recruiting
+                freelancers for different types of jobs is also very convenient.
+                Companies can register and login with their own accounts and
+                start posting jobs, and get bids and invoices for jobs right
+                away. In a nutshell, the process can be understood as
+                follows:<br />
+                <br /><span class="glyphicon glyphicon-expand">&nbsp;</span>Post
+                a job Explainging your requirements and set up an initial bid.
+                <br /><span class="glyphicon glyphicon-expand">&nbsp;</span>Get
+                applications regarding your job by various freelancers with
+                different bids and experience. <br /><span
+                  class="glyphicon glyphicon-expand"
+                  >&nbsp;</span
+                >Shortlist freelancers and get in contact with them. <br /><span
+                  class="glyphicon glyphicon-expand"
+                  >&nbsp;</span
+                >Discuss constraints and deadlines for the job. <br /><span
+                  class="glyphicon glyphicon-expand"
+                  >&nbsp;</span
+                >Get the work completed and provide feedback.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-      <!--Compends-->
 
-      <!--aboutBegins-->
       <div class="row">
         <div class="col-sm-12 about main" id="about">
-          <h2>About Us</h2>
-          <div class="col-xs-push-2 col-xs-8 col-sm-3 col-sm-push-0">
-            <img class="img-responsive" src="resources\me.png" />
-          </div>
-          <div class="col-xs-12 col-sm-9">
-            <p>
-              The FreeLancer's Nest is a website that was essentially developed
-              as a third year project by Ashutosh Dwivedi for the subject of
-              Advanced Internet Technology (AIT) at Ramrao Adik Institute of
-              Technology, Nerul, Navi Mumbai. The website features a responsive
-              web-design developed using the Open-source technology of Bootstrap
-              along with implementations of CSS3. The website is developed using
-              the "Mobile-First" Approach which dictates that the website should
-              be able to adjust to the viewport of smartphones without extra
-              Server-side Scripting or redirection. Along with this, The website
-              has been embedded with the Google Maps API to enable Geo-location
-              within the website.
-            </p>
-            <br />
-            <div class="col-xs-10 col-xs-push-1 col-sm-4 col-sm-push-0 abtlst">
-              <h2>Contact:</h2>
-              <p>Ashutosh Dwivedi</p>
-              <p id="email">
-                <span class="glyphicon glyphicon-envelope"></span>
-                ashudot2099@gmail.com
-              </p>
-              <p><span class="glyphicon glyphicon-phone"></span>8692966188</p>
+          <div class="row">
+            <div class="col-xs-12">
+              <h2>About Us</h2>
+            </div>
+
+            <div class="col-xs-push-2 col-xs-8 col-sm-3 col-sm-push-0">
+              <img class="img-responsive" src="resources\me.png" />
+            </div>
+
+            <div class="col-xs-12 col-sm-9">
               <p>
-                <a href="#"><img class="socimg" src="resources/ln.png"/></a>
-                <a href="#"><img class="socimg" src="resources/fb.png"/></a>
-                <a href="#"><img class="socimg" src="resources/g+.png"/></a>
+                The FreeLancer's Nest is a website that was essentially
+                developed as a third year project by Ashutosh Dwivedi for the
+                subject of Advanced Internet Technology (AIT) at Ramrao Adik
+                Institute of Technology, Nerul, Navi Mumbai. The website
+                features a responsive web-design developed using the Open-source
+                technology of Bootstrap along with implementations of CSS3. The
+                website is developed using the "Mobile-First" Approach which
+                dictates that the website should be able to adjust to the
+                viewport of smartphones without extra Server-side Scripting or
+                redirection. Along with this, The website has been embedded with
+                the Google Maps API to enable Geo-location within the website.
               </p>
-            </div>
-            <div class="col-xs-10 col-xs-push-1 col-sm-4 col-sm-push-0 abtlst">
-              <h2>Technologies:</h2>
+              <br />
+              <div
+                class="col-xs-10 col-xs-push-1 col-sm-4 col-sm-push-0 abtlst"
+              >
+                <h2>Contact:</h2>
+                <p>Ashutosh Dwivedi</p>
+                <p id="email">
+                  <span class="glyphicon glyphicon-envelope"></span>
+                  ashudot2099@gmail.com
+                </p>
+                <p><span class="glyphicon glyphicon-phone"></span>8692966188</p>
+                <p>
+                  <a href="#"><img class="socimg" src="resources/ln.png" /></a>
+                  <a href="#"><img class="socimg" src="resources/fb.png" /></a>
+                  <a href="#"><img class="socimg" src="resources/g+.png" /></a>
+                </p>
+              </div>
+              <div
+                class="col-xs-10 col-xs-push-1 col-sm-4 col-sm-push-0 abtlst"
+              >
+                <h2>Technologies:</h2>
 
-              <p>HTML5</p>
-              <p>Bootstrap</p>
-              <p>CSS3</p>
-              <p>JavaScript</p>
-              <p>Jquery</p>
-              <p>Adobe Photoshop</p>
-              <p>PHP</p>
-              <p>MySQL</p>
+                <p>HTML5</p>
+                <p>Bootstrap</p>
+                <p>CSS3</p>
+                <p>JavaScript</p>
+                <p>Jquery</p>
+                <p>Adobe Photoshop</p>
+                <p>PHP</p>
+                <p>MySQL</p>
+              </div>
+              <div
+                class="col-xs-10 col-xs-push-1 col-sm-4 col-sm-push-0 abtlst"
+              >
+                <h2>References:</h2>
+                <p>W3-Schools.com</p>
+                <p>Stack Overflow.com</p>
+                <p>maxCDN.hrcdn.net</p>
+                <p>www.bootsnipp.com</p>
+                <p>www.CSStricks.com</p>
+                <p>www.apachefriends.org</p>
+              </div>
             </div>
-            <div class="col-xs-10 col-xs-push-1 col-sm-4 col-sm-push-0 abtlst">
-              <h2>References:</h2>
-              <p>W3-Schools.com</p>
-              <p>Stack Overflow.com</p>
-              <p>maxCDN.hrcdn.net</p>
-              <p>www.bootsnipp.com</p>
-              <p>www.CSStricks.com</p>
-              <p>www.apachefriends.org</p>
+
+            <div class="col-xs-push-1 col-xs-10">
+              <h2 class="vidhd">Best Animation of 2016</h2>
+              <video src="resources/mov.mp4" controls></video>
             </div>
-          </div>
 
-          <div class="col-xs-push-1 col-xs-10">
-            <h2 class="vidhd">Best Animation of 2016</h2>
-            <video src="resources/mov.mp4" controls></video>
-          </div>
-
-          <div class="col-xs-push-1 col-xs-10">
-            <iframe
-              class="iframe"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1885.7187384349916!2d73.0249603077687!3d19.044493709322794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c3db00160053%3A0x95e9ca007676b993!2sDr.+D+Y+Patil&#39;s+Ramrao+Adik+Institute+Of+Technology!5e0!3m2!1sen!2sin!4v1491214864918"
-              frameborder="0px"
-              allowfullscreen
-            ></iframe>
+            <div class="col-xs-push-1 col-xs-10">
+              <iframe
+                class="iframe"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1885.7187384349916!2d73.0249603077687!3d19.044493709322794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c3db00160053%3A0x95e9ca007676b993!2sDr.+D+Y+Patil&#39;s+Ramrao+Adik+Institute+Of+Technology!5e0!3m2!1sen!2sin!4v1491214864918"
+                frameborder="0px"
+                allowfullscreen
+              ></iframe>
+            </div>
           </div>
         </div>
       </div>
-      <!--aboutends-->
     </div>
 
     <!--loginModal-->
@@ -435,7 +465,7 @@
               <img
                 src="resources/loginlockr.png"
                 width="50%"
-                style="display:block;margin:auto;max-width:150px;"
+                style="display: block; margin: auto; max-width: 150px;"
               />
               <ul class="nav nav-tabs">
                 <li class="active">
@@ -531,31 +561,41 @@
 
               <div
                 class="col-xs-4"
-                style="background-color:#777777;height:1px;margin:20px 0px;"
+                style="
+                  background-color: #777777;
+                  height: 1px;
+                  margin: 20px 0px;
+                "
               ></div>
               <div class="col-xs-4">
-                <p style="text-align:center;margin:0px;">OR<br />Login Via</p>
+                <p style="text-align: center; margin: 0px;">
+                  OR<br />Login Via
+                </p>
               </div>
               <div
                 class="col-xs-4"
-                style="background-color:#777777;height:1px;margin:20px 0px;"
+                style="
+                  background-color: #777777;
+                  height: 1px;
+                  margin: 20px 0px;
+                "
               ></div>
               <!--loginModalSocialLinks-->
 
               <div class="col-xs-12 col-sm-3 socdiv">
-                <a><img class="lmsocimg" src="resources/g+.png"/></a>
+                <a><img class="lmsocimg" src="resources/g+.png" /></a>
                 <p class="lmsocimgtag">Google Plus</p>
               </div>
               <div class="col-xs-12 col-sm-3 socdiv">
-                <a><img class="lmsocimg" src="resources/ln.png"/></a>
+                <a><img class="lmsocimg" src="resources/ln.png" /></a>
                 <p class="lmsocimgtag">LinkedIn</p>
               </div>
               <div class="col-xs-12 col-sm-3 socdiv">
-                <a><img class="lmsocimg" src="resources/gh.png"/></a>
+                <a><img class="lmsocimg" src="resources/gh.png" /></a>
                 <p class="lmsocimgtag">GitHub</p>
               </div>
               <div class="col-xs-12 col-sm-3 socdiv">
-                <a><img class="lmsocimg" src="resources/fb.png"/></a>
+                <a><img class="lmsocimg" src="resources/fb.png" /></a>
                 <p class="lmsocimgtag">Facebook</p>
               </div>
 
