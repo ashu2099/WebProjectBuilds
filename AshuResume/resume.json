@@ -1,0 +1,120 @@
+{
+  "header": {
+    "phone": "8692966188",
+    "email": "ashudot2099@gmail.com",
+    "website": "https://ashu2099.github.io",
+    "location": "Mumbai, Maharashtra, India"
+  },
+  "workExperienceBulletIndicator": "◈ ",
+  "workExperience": [
+    {
+      "jobPost": "Lead Software Engineer",
+      "companyName": "Havas India, Canada, France",
+      "duration": "November 2023 - Present",
+      "description": [
+        "Plan, Architect and Develop frontend solutions, ensuring scalable, performant experiences across multiple time zones.",
+        "Spearheaded the migration of a Client-Side React app to SSR using Next.js, to improve SEO (21% organic traffic lift), reduced load times by 34%, and cut FCP by 18%, to 1.4s.",
+        "Optimized a complex Three.js application by reducing resource consumption via minimizing draw calls using practices such as instancing and frustum culling and memory usage (compressed textures). Implemented Web Workers to eliminate UI blocking, resulting in smoother rendering.",
+        "Authoring technical and API specifications, Evaluate UI design feasibility, distributing initiatives among devs.",
+        "Serve as the primary technical point of contact for stakeholder communication across time zones to address technical goals.",
+        "Oversee code quality through reviews and troubleshooting, Ops/Alerts, maintaining consistency and best practices."
+      ]
+    },
+    {
+      "jobPost": "Senior Frontend Software Engineer",
+      "companyName": "BrowserStack",
+      "duration": "September 2021 - November 2023",
+      "description": [
+        "Architected and implemented a modern frontend mono-repository (Vercel TurboRepo) for new BrowserStack products, reducing initial build times by 25%",
+        "Optimized application performance, reducing CPU usage by 71% through strategic websocket event throttling and render cycle decoupling, resulting in significant performance gains.",
+        "Developed a robust component library using (shadcn/ui) with Vite for optimized tree-shaking, achieving a 62% component reuse rate, published via GitHub Packages, and documented with Storybook.",
+        "Pioneered desktop application development in BrowserStack, with a cross-platform (Windows/macOS) electron.js application for mobile app performance analysis (Android / iOS)"
+      ]
+    },
+    {
+      "jobPost": "Senior Developer",
+      "companyName": "Salt-Tech Services LLP",
+      "duration": "March 2021 - September 2021",
+      "description": [
+        "Built a cross-platform React Native application (Android/iOS), for a service aggregator business, delivering a unified platform for diverse third-party services.",
+        "Integrated Push Notifications, using google cloud messaging and Firebase SDK, Auth0 for authentication.",
+        "Implemented Elasticsearch for location-based search and sorting, based on Google Map Location co-ordinates.",
+        "Integrated Stripe for payment processing, Engineered a real-time chat feature via socket.io implementation."
+      ]
+    },
+    {
+      "jobPost": "Systems Engineer",
+      "companyName": "Tata Consultancy Services",
+      "duration": "November 2018 - March 2021",
+      "description": [
+        "Initiated the migration of legacy JSP front-ends to AngularJS, Angular 5/8/11 applications, resulting in a 67% reduction in build and load times (9.4s to 3.1s).",
+        "Engineered scalable APIs using Java Spring and Hibernate, leveraging Jackson ObjectMapper with Jersey."
+      ]
+    }
+  ],
+  "projects": [],
+  "blooo": [
+    {
+      "name": "VidChipper",
+      "tech": "FFmpeg.wasm, React 18, TailwindCSS, HeadlessUI, Vite",
+      "description": [
+        "A Web-Assembly powered website to Clip, Convert or Split Videos into equal parts for social media, right in the browser runtime, without any backend."
+      ]
+    },
+    {
+      "name": "Havas CX Canada Website",
+      "tech": "Next.js, Tailwind.css, Radix UI, Vercel CI/CD, Headless Contentful CMS",
+      "description": [
+        "The portfolio websites for Havas CX Canada and its clients, using a component library built with",
+        "TailwindCSS and Radix UI, where content and component layout is managed through Contentful,",
+        "a headless CMS for efficient content updates and it's APIs for scalable backend integration,"
+      ]
+    }
+  ],
+  "skills": [
+    "Javascript(ES2020)",
+    "Node.js",
+    "Electron.js",
+    "React 18",
+    "Redux",
+    "Redux Toolkit",
+    "React-Native",
+    "Next.js",
+    "Vue 3",
+    "Nuxt 3",
+    "Angular 8-13",
+    "Three.js",
+    "jQuery",
+    "Handlebars.js",
+    "Tailwind",
+    "SCSS",
+    "Ruby on Rails",
+    "MySQL",
+    "Java 8",
+    "Adobe Photoshop"
+  ],
+  "tools": [
+    "Bitbucket Pipelines",
+    "Vercel Turborepo",
+    "Vite",
+    "Webpack",
+    "gulp",
+    "husky pre-commit",
+    "Auto-prefixxer",
+    "Storybook (Chromatic)",
+    "npm/nvm/pnpm",
+    "Contentful Headless",
+    "jest",
+    "karma",
+    "jasmine",
+    "Git",
+    "VS Code (with ESLint)",
+    "RTL-CSS(Arabic)"
+  ],
+  "education": [
+    {
+      "name": "Bachelor's Degree Of Engineering | Information Technology",
+      "duration": "2014 - 2018"
+    }
+  ]
+}
