@@ -39,7 +39,7 @@
         "Built a cross-platform React Native application (Android/iOS), for a service aggregator business, delivering a unified platform for diverse third-party services.",
         "Integrated Push Notifications, using google cloud messaging and Firebase SDK, Auth0 for authentication.",
         "Implemented Elasticsearch for location-based search and sorting, based on Google Map Location co-ordinates.",
-        "Integrated Stripe for payment processing, Engineered a real-time chat feature via socket.io implementation."
+        "Integrated Stripe for payment processing, Developed a real-time chat feature via socket.io implementation."
       ]
     },
     {
@@ -48,7 +48,7 @@
       "duration": "November 2018 - March 2021",
       "description": [
         "Initiated the migration of legacy JSP front-ends to AngularJS, Angular 5/8/11 applications, resulting in a 67% reduction in build and load times (9.4s to 3.1s).",
-        "Engineered scalable APIs using Java Spring and Hibernate, leveraging Jackson ObjectMapper with Jersey."
+        "Developed scalable APIs using Java Spring and Hibernate, leveraging Jackson ObjectMapper with Jersey."
       ]
     }
   ],
