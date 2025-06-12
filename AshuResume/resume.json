@@ -5,18 +5,17 @@
     "website": "https://ashu2099.github.io",
     "location": "Mumbai, Maharashtra, India"
   },
-  "workExperienceBulletIndicator": "◈ ",
   "workExperience": [
     {
       "jobPost": "Lead Software Engineer",
       "companyName": "Havas India, Canada, France",
       "duration": "November 2023 - Present",
       "description": [
-        "Plan, Architect and Develop frontend solutions, ensuring scalable, performant experiences across multiple time zones.",
+        "Plan, Architect and Code software solutions, ensuring scalable, performant experiences across multiple time zones.",
         "Spearheaded the migration of a Client-Side React app to SSR using Next.js, to improve SEO (21% organic traffic lift), reduced load times by 34%, and cut FCP by 18%, to 1.4s.",
-        "Optimized a complex Three.js application by reducing resource consumption via minimizing draw calls using practices such as instancing and frustum culling and memory usage (compressed textures). Implemented Web Workers to eliminate UI blocking, resulting in smoother rendering.",
-        "Authoring technical and API specifications, Evaluate UI design feasibility, distributing initiatives among devs.",
-        "Serve as the primary technical point of contact for stakeholder communication across time zones to address technical goals.",
+        "Authoring User feedback into requirements, technical specifications and APIs, evaluate infrastructure feasibility and costs.",
+        "Optimized a 3D-rendered Three.js application by reducing resource consumption, minimizing draw calls through practices such as instancing, frustum culling, and lowering memory usage with compressed textures. Implemented Web Workers to eliminate UI blocking, resulting in smoother rendering.",
+        "Serve as the primary technical point of contact for stakeholder communication across time zones.",
         "Oversee code quality through reviews and troubleshooting, Ops/Alerts, maintaining consistency and best practices."
       ]
     },
@@ -25,7 +24,7 @@
       "companyName": "BrowserStack",
       "duration": "September 2021 - November 2023",
       "description": [
-        "Architected and implemented a modern frontend mono-repository (Vercel TurboRepo) for new BrowserStack products, reducing initial build times by 25%",
+        "Architected and implemented a modern frontend mono-repository (Vercel TurboRepo) for new BrowserStack products, reducing initial build times by 226s",
         "Optimized application performance, reducing CPU usage by 71% through strategic websocket event throttling and render cycle decoupling, resulting in significant performance gains.",
         "Developed a robust component library using (shadcn/ui) with Vite for optimized tree-shaking, achieving a 62% component reuse rate, published via GitHub Packages, and documented with Storybook.",
         "Pioneered desktop application development in BrowserStack, with a cross-platform (Windows/macOS) electron.js application for mobile app performance analysis (Android / iOS)"
